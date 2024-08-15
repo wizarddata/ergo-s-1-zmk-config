@@ -19,6 +19,6 @@
 ---
 include:
   - board: nrf52840dk_nrf52840
-    shield: corne_left
+    shield: ergo_s1_oe_left
   - board: nrf52840dk_nrf52840
-    shield: corne_right
+    shield: ergo_s1_oe_right
