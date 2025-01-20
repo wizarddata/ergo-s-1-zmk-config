@@ -43,12 +43,12 @@
             //                                                         |      |         |      |
 
             bindings = <
-&trans        &kp F1   &kp F2   &kp F3   &kp F4           &kp F5                                                            &kp F6     &kp F7        &kp F8   &kp F9      &kp F10       &kp F11
-&trans        &kp F6   &kp F7   &kp F8   &kp F9           &kp F10                                                           &trans     &kp N7        &kp N8   &kp N9      &kp PLUS      &kp F12
-&kp CAPSLOCK  &kp F11  &kp F12  &kp INS  &kp PRINTSCREEN  &trans                                                            &kp EQUAL  &kp N4        &kp N5   &kp N6      &kp MINUS     &trans
-&mo 2         &trans   &trans   &trans   &trans           &trans            &trans  &trans    &trans  &trans                &trans     &kp N1        &kp N2   &kp N3      &kp ASTERISK  &trans
-              &trans   &trans   &trans   &trans                    &kp DEL  &trans  &trans    &trans  &kp COLON  &kp MINUS             &kp NUMBER_0  &kp DOT  &kp RETURN  &kp SLASH
-                                                                                    &trans    &trans
+&trans        &kp F1   &kp F2   &kp F3   &kp F4           &kp F5                                                               &kp F6     &kp F7        &kp F8   &kp F9      &kp F10       &kp F11
+&trans        &kp F6   &kp F7   &kp F8   &kp F9           &kp F10                                                              &kp CARET  &kp N7        &kp N8   &kp N9      &kp PLUS      &kp F12
+&kp CAPSLOCK  &kp F11  &kp F12  &kp INS  &kp PRINTSCREEN  &trans                                                               &kp EQUAL  &kp N4        &kp N5   &kp N6      &kp MINUS     &trans
+&mo 2         &trans   &trans   &trans   &trans           &trans           &trans  &trans    &trans  &kp BACKSPACE             &trans     &kp N1        &kp N2   &kp N3      &kp ASTERISK  &trans
+              &trans   &trans   &trans   &trans                    &trans  &trans  &trans    &trans  &kp COLON      &kp MINUS             &kp NUMBER_0  &kp DOT  &kp RETURN  &kp SLASH
+                                                                                   &trans    &trans
             >;
         };
 
